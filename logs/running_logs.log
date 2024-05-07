@@ -68,3 +68,63 @@ Source-Age: 0
 [2024-05-07 14:28:11,936: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
 
 x==========x]
+[2024-05-07 14:40:48,709: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-07 14:40:48,711: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-07 14:40:48,712: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-07 14:40:48,712: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-07 14:40:48,713: INFO: common: created directory at: artifacts]
+[2024-05-07 14:40:48,714: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-07 14:40:48,715: INFO: data_ingestion: File already exists of size: ~ 27 KB]
+[2024-05-07 14:40:48,718: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-07 15:01:46,024: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-07 15:01:46,028: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-07 15:01:46,037: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-07 15:01:46,040: INFO: common: created directory at: artifacts]
+[2024-05-07 15:01:46,042: INFO: common: created directory at: artifacts/data_validation]
+[2024-05-07 15:29:17,275: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-07 15:29:17,279: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-07 15:29:17,279: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-07 15:29:17,283: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-07 15:29:17,284: INFO: common: created directory at: artifacts]
+[2024-05-07 15:29:17,285: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-07 15:29:19,713: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 27580
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "a2dc65613fe4673e24eef6414575b03188d0f3e38f0025372222a88af89d1a9d"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 1866:C1469:188B7D:27FBA9:663A1E57
+Accept-Ranges: bytes
+Date: Tue, 07 May 2024 13:29:16 GMT
+Via: 1.1 varnish
+X-Served-By: cache-cpt13825-CPT
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1715088556.919061,VS0,VE322
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 5fb70f5b1b7a26723223f95d51759e442ee04b89
+Expires: Tue, 07 May 2024 13:34:16 GMT
+Source-Age: 0
+
+]
+[2024-05-07 15:29:19,732: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-07 15:29:19,733: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-05-07 15:29:19,736: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-07 15:29:19,741: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-07 15:29:19,744: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-07 15:29:19,744: INFO: common: created directory at: artifacts]
+[2024-05-07 15:29:19,752: INFO: common: created directory at: artifacts/data_validation]
+[2024-05-07 15:29:19,802: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
